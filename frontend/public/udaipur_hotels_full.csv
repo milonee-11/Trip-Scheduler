@@ -1,0 +1,57 @@
+name,category,budget_min_INR,budget_max_INR,address,latitude,longitude,pool,wifi,breakfast_included,parking,ac,pet_friendly,gym,spa,restaurant,front_desk_24h,family_friendly,bar,laundry_service,room_service,accessible_rooms,non_smoking_rooms
+Footprint Hostel Udaipur,Hostel,500,2000,"Near Jagdish Temple, Udaipur",24.577,73.678,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Nomadic Hostel Udaipur,Hostel,600,2000,"Lake Pichola area, Udaipur",24.577,73.677,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Whereabout Hostel Udaipur,Hostel,550,1800,"Shastri Circle, Udaipur",24.580,73.690,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Dreamyard Udaipur,Hostel,800,2200,"Old City near Basin Bridge, Udaipur",24.577,73.683,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Multiple Stories,Hostel,700,2000,"C Scheme, Udaipur",24.580,73.690,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Udai Palace,Budget,900,1500,"Near Bus Stand, Udaipur",24.579,73.692,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Amantra Comfort Hotel,Budget,1200,2000,"Hiran Magri, Udaipur",24.565,73.700,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Fairy Mont Udaipur,Budget,1000,1800,"City Centre near Station",24.580,73.696,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel The Dee Glanc,Budget,1500,2500,"Near Railway Station",24.577,73.693,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Gyanav Hotel & Restaurant,Budget,1200,2000,"Near City Palace",24.577,73.683,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Lakend,Mid-range,6000,9500,"Fateh Sagar Lake Road",24.607,73.674,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+The Uddhav Elite,Mid-range,1500,2500,"Near Train Station",24.576,73.692,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Petal of Mewar,Boutique,3000,4500,"Lake Pichola area",24.577,73.677,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Kaladwas Lal Haveli,Heritage Boutique,3000,5000,"Old City near City Palace",24.576,73.683,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Madri Haveli,Heritage,2200,3500,"Ganesh Gati, Chandpole",24.579,73.683,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Jagat Niwas Palace,Heritage,5500,8500,"Lal Ghat, Old City",24.576,73.683,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes
+Shiv Niwas Palace,Heritage Luxury,10000,18000,"City Palace Complex",24.577,73.683,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Taj Fateh Prakash Palace,Luxury Heritage,25000,35000,"City Palace Complex",24.576,73.683,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Taj Lake Palace,Ultra-Luxury,24399,58797,"Jagd Niwas Island, Lake Pichola",24.5676,73.6777,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+The Leela Palace Udaipur,Luxury,28000,30000,"Hiran Magri, Udaipur",24.564,73.699,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+The Oberoi Udaivilas,Ultra-Luxury,25500,80000,"Lake Pichola Road",24.567,73.677,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Zostel Udaipur,Hostel,500,1500,"Lal Ghat near Jagdish Temple, Udaipur",24.577,73.678,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Banjara Hostel,Hostel,800,2000,"Near Jagdish Temple, Udaipur",24.577,73.678,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Turtle Hostel Udaipur,Hostel,700,1800,"Near Fateh Sagar Lake, Udaipur",24.605,73.673,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Holymont Udaipur,Hostel,800,2000,"Near Fateh Sagar, Udaipur",24.605,73.673,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+3 Raahi,Hostel,700,1600,"Near Fateh Sagar Lake",24.605,73.673,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+The Hosteller Udaipur,Hostel,900,2000,"Lal Ghat, near Pichola Lake",24.577,73.678,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Silver Moon Haveli,Hostel,900,2000,"Lal Ghat, Udaipur",24.577,73.678,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Vaidehi,Budget,800,1500,"Jawahar Nagar, Udaipur",24.582,73.693,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Golden Leaf,3 Star,2000,3200,"Opposite Central Bus Stand",24.579,73.692,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Hotel Hilltop Palace,3 Star,3000,4800,"Ambavgarh, Fateh Sagar Lake",24.5988,73.6837,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Hotel Swaroop Vilas,3 Star,3200,4800,"Fateh Sagar Lake Road",24.6032,73.6768,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Hotel India International,3 Star,2500,4000,"City Palace area",24.576,73.683,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Hotel Paras Mahal,3 Star,3000,5300,"Hiran Magri, Udaipur",24.565,73.700,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Trident Udaipur,Luxury,10000,15000,"Opposite Fateh Sagar Lake",24.600,73.690,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+The Lalit Laxmi Vilas Palace,Heritage Luxury,15000,25000,"Near Fateh Prakash Palace",24.576,73.683,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Fateh Prakash Palace,Heritage Luxury,20000,30000,"City Palace Complex",24.576,73.683,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Devigarh (Devi Garh),Luxury Resort,20000,30000,"Near Udaipur (~28 km)",24.950,73.700,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Karni Fort,Heritage Resort,18000,25000,"Aravalli foothills",24.650,73.650,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Udai Bagh,Luxury Tent,15000,22000,"Near Udaipur city outskirts",24.620,73.680,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Hotel Fatehgarh,Heritage,5000,8000,"Hilltop overlooking lakes",24.610,73.685,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Amargarh Resort,Heritage,12000,18000,"Near Lake Pichola",24.580,73.680,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Chunda Palace,Heritage,7000,12000,"City outskirts near lakes",24.590,73.690,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Udai Bagh (Lake Camp),Resort Tent,12000,20000,"Near Fateh Sagar",24.600,73.680,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Hotel Swaroop Vilas,Resort,6000,9000,"Fateh Sagar lakeside",24.603,73.676,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Hotel Mewar Haveli,Budget,1000,2000,"Near Chandpole",24.580,73.683,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Shree Jagdish Mahal,Budget,1200,2000,"Old City near Jagdish Temple",24.577,73.683,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Laxmi Vilas Palace Hotel,Heritage,15000,22000,"City Palace Road",24.576,73.683,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Hotel Mahendra Prakash,Heritage Budget,2500,3500,"Near Chandpole",24.580,73.683,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Rangniwas Palace,Heritage,4000,6000,"City outskirts",24.580,73.683,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Aashiya Haveli,Heritage Budget,1800,3000,"Near Bus Stand",24.579,73.692,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Natural,Budget,1500,2500,"Near City Centre",24.580,73.690,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Raj Niwas,Mid‑range,2500,4000,"Chandpole area",24.580,73.683,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Rajdarshan,3 Star,3600,4800,"Lake Palace Road",24.578,73.685,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Hotel Ram Pratap Palace,Mid‑range,3000,4500,"City outskirts",24.580,73.683,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel The Park City,Mid‑range,3000,5000,"Near Fateh Sagar",24.605,73.673,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes

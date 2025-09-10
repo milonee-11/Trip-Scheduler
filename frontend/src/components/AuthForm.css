@@ -1,0 +1,68 @@
+/* Basic Styling for Auth Form */
+.auth-background {
+  background-image: url('https://example.com/rajasthan-background.jpg'); /* Update this to your own image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.auth-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.auth-box {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.auth-left,
+.auth-right {
+  padding: 30px;
+}
+
+.rajasthan-heading {
+  color: #ff704d; /* Rajasthan themed color */
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+}
+
+.auth-right p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.btn-rajasthani {
+  background-color: #ff704d; /* Rajasthan orange */
+  color: white;
+  border: none;
+}
+
+.btn-rajasthani:hover {
+  background-color: #e64a30; /* Darker shade */
+}
+
+.error {
+  color: #d9534f;
+}
+
+.success {
+  color: #5bc0de;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .auth-overlay {
+    flex-direction: column;
+  }
+
+  .auth-left, .auth-right {
+    width: 100%;
+    padding: 15px;
+  }
+}

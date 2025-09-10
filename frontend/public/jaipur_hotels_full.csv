@@ -1,0 +1,58 @@
+name,category,budget_min_INR,budget_max_INR,address,latitude,longitude,pool,wifi,breakfast_included,parking,ac,pet_friendly,gym,spa,restaurant,front_desk_24h,family_friendly,bar,laundry_service,room_service,accessible_rooms,non_smoking_rooms
+Moustache Jaipur,Hostel,599,4999,"Sindhi Camp area, Pink City, Jaipur",26.9170,75.8090,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+House of Backpackers,Hostel,500,1500,"Bapu Bazar, Jaipur",26.9158,75.8181,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Holiday Inn Jaipur City Centre,Mid-range,5000,7000,"Sardar Patel Road, Jaipur",26.9175,75.8075,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Radisson Blu Jaipur,4 Star,6000,9000,"Tonk Road, Durgapura, Jaipur",26.8550,75.8070,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Hyatt Place Jaipur Malviya Nagar,4 Star,6000,8000,"Malviya Nagar, Jaipur",26.8870,75.8080,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Jaipur Marriott Hotel,Luxury,10000,15000,"Ashram Marg near Jawahar Circle",26.9185,75.7960,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+The Raj Palace,Heritage Luxury,20000,30000,"Jal Mahal Road, Pink City",26.9170,75.8130,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Diggi Palace,Heritage,7000,12000,"Civil Lines area, Jaipur",26.9240,75.8060,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Alila Fort Bishangarh,Ultra-Luxury Resort,25000,35000,"Manoharpur Village, Jaipur district",26.9000,75.7330,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Fort Madhogarh,Heritage Resort,15000,25000,"Madhogarh Village, near Jaipur",26.6230,75.9980,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Pachamama Hostel,Hostel,800,2000,"Civil Lines, Jaipur",26.9230,75.8060,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Hoztel Jaipur,Hostel,1200,3000,"Bani Park / Sindhi Camp, Jaipur",26.9150,75.8190,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Mandala Bagpackers,Hostel,1000,2500,"Civil Lines area, Jaipur",26.9230,75.8070,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Shalom Backpackers Jaipur,Hostel,1200,3000,"Near Jantar Mantar, Jaipur",26.9150,75.8100,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Zostel Jaipur,Hostel,1500,3500,"Near Jaipur Railway Station, Jaipur",26.9150,75.8050,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Blue Beds Hostel,Hostel,900,2000,"C Scheme, Jaipur",26.9220,75.8040,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+The Hosteller Jaipur (MI Road),Hostel,1300,3000,"MI Road, Jaipur",26.9165,75.8095,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Pearl Palace Heritage,Boutique Budget,2000,3500,"Ajmer Road, near station, Jaipur",26.9120,75.8060,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Arya Niwas,Heritage Budget,1800,3000,"Civil Lines, Jaipur",26.9235,75.8065,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Royal Heritage Haveli,Heritage Budget,2200,3800,"Walled City, Jaipur",26.9155,75.8185,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Diggi Palace,Heritage,5000,8000,"Civil Lines, Jaipur",26.9240,75.8060,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+Alsisar Haveli,Heritage,6000,9000,"Bani Park, Jaipur",26.9158,75.8181,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+Hotel Narain Niwas Palace,Heritage,5000,8000,"Bani Park, Jaipur",26.9160,75.8190,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+Hotel Sapphire Inn,Budget,1500,3000,"Near walled city, Jaipur",26.9150,75.8170,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Hotel Arya Niwas,Budget,1200,2500,"Central Jaipur, Civil Lines",26.9235,75.8065,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Hotel Rajasthan Palace,Heritage Budget,2000,3500,"MI Road, Jaipur",26.9165,75.8095,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Hotel Sweet Dream,Budget,1300,2500,"MI Road, near Bapu Bazar",26.9160,75.8090,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Sheel Mahal (Near Hawa Mahal),Budget,1500,3000,"MI Road near Jantar Mantar",26.9165,75.8090,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,Yes,Yes
+Hotel Rangoli,Mid-range,2500,4000,"MI Road, Jaipur",26.9165,75.8095,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Golden Tulip Essential Jaipur,4 Star,5000,8000,"C Scheme, Jaipur",26.9220,75.8040,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Hotel LMB (Lakshmi Misthan Bhandar),Heritage / Mid‑range,3000,4500,"Johari Bazaar, Old City, Jaipur",26.9160,75.8180,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Rambagh Palace,Ultra-Luxury Heritage,25000,40000,"Bhawani Singh Road, Jaipur",26.9180,75.8000,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+The Oberoi Rajvilas,Luxury Resort,22000,35000,"Goner Road near Jaipur airport area",26.8120,75.7460,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Fairmont Jaipur,Luxury Resort,15000,25000,"Kukas, RIICO, Jaipur",26.9240,75.6670,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+The Lalit Jaipur,Luxury,12000,22000,"Jagatpura Road, near Jawahar Circle",26.9185,75.7960,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Hilton Jaipur,5 Star,10000,18000,"Hawa Sadak, Jaipur",26.9100,75.8300,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Trident Jaipur,Luxury,12000,20000,"Amber Fort Road, opposite Jal Mahal",26.9160,75.8130,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Madpackers Jaipur,Hostel,500,2000,"Hawa Mahal Rd, Pink City, Jaipur",26.9150,75.8200,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Pink City Backpackers,Hostel,700,2000,"Kishanpole Bazar Rd, Old City, Jaipur",26.9160,75.8180,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Hoztel Jaipur,Hostel,600,2000,"Bani Park / Sindhi Camp, Jaipur",26.9158,75.8190,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Horn OK Please Hostel,Hostel,1000,2500,"Gopinath Marg off Mirza Ismail Rd, Jaipur",26.9160,75.8130,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+CrashPad Hostotel,Hostel,600,1500,"Civil Lines (Shyam Nagar), Jaipur",26.9235,75.8065,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Le Pension Shyam Nagar,Hostel,350,900,"Shyam Nagar, Civil Lines, Jaipur",26.9230,75.8065,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Bunkstop C‑Scheme,Hostel,650,1600,"C Scheme, Jaipur",26.9220,75.8040,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Pink Turban Hostel,Hostel,500,1200,"Moti Doongri Circle, Jaipur",26.9155,75.8200,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Aq Hostel,Hostel,500,1300,"Surajpole Gate area, Jaipur",26.9150,75.8100,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+Jantar Hostel,Hostel,500,1500,"MI Road near Jantar Mantar, Jaipur",26.9155,75.8100,No,Yes,Yes,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No,Yes
+The Fern Residency Jaipur,Mid-range,3000,6000,"Hawa Mahal area, Jaipur",26.9145,75.8160,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+Shahpura House,Mid-range,3000,6000,"Near Raj Mandir Cinema, Jaipur",26.9180,75.8020,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Rajasthali Resort & Spa,Mid-range,3000,6000,"Near Anand Garden, Jaipur",26.9200,75.8100,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+KK Royal Hotel & Convention Centre,Mid-range,3000,6000,"Amber Fort Road, Amer, Jaipur",26.9850,75.8460,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Umaid Bhawan Heritage Hotel,Mid-range,3000,6000,"Civil Lines / City Palace area, Jaipur",26.9235,75.8060,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Samode Haveli,Heritage Boutique,6000,9000,"Old Town (Samode Rd), Jaipur",26.9175,75.8200,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+28 Kothi,Heritage Boutique,6000,10000,"Civil Lines, Jaipur",26.9235,75.8065,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Naila Bagh Palace,Heritage Boutique,7000,12000,"Walled City area, Jaipur",26.9150,75.8180,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Bissau Palace Hotel,Heritage,5000,8000,"North of Chandpole, Jaipur Old City",26.9180,75.8190,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+Hotel Narain Niwas Palace,Heritage,5000,8000,"Bani Park (Narain Singh Rd), Jaipur",26.9160,75.8190,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes

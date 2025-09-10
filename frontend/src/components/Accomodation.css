@@ -1,0 +1,47 @@
+.accommodation-container {
+  padding: 2rem;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Georgia', serif;
+  color: #fff;
+}
+
+.rajasthani-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, #f76b1c, #fad961);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow 2s infinite alternate;
+}
+
+.input-section input, .input-section button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.fetch-btn {
+  background-color: #ff9933;
+  color: #fff;
+  cursor: pointer;
+}
+
+.map-style {
+  height: 400px;
+  margin: 2rem 0;
+  border-radius: 12px;
+}
+
+.selected-hotel {
+  background-color: rgba(0,0,0,0.6);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px #ff9933; }
+  to { text-shadow: 0 0 20px #ffcc00; }
+}

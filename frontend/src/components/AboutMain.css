@@ -1,0 +1,981 @@
+.about-main {
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* background: linear-gradient(135deg, #fff5e6 0%, #ffe4c4 100%); */
+}
+
+
+
+
+/* Split Section Styling */
+.split-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 40px;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.split-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.text-side {
+  flex: 1;
+  min-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.text-side:hover {
+  transform: translateY(-5px);
+}
+
+.text-side h1,
+.text-side h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #8b4513;
+}
+
+.text-side p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #5d4037;
+}
+
+.image-side {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-side img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+/* Timeline Section */
+/* Section Styling */
+.timeline-section {
+  position: relative;
+  padding: 50 1px;
+  text-align: center;
+  overflow: hidden;
+  /* background: #fff8e6; */
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 1px;
+  margin-bottom: 80px;
+}
+
+/* Title Styling */
+.timeline-title {
+  font-size: 3rem;
+  font-weight: 900;
+  /* color: #3a2e20; */
+  color: #83420c;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+}
+.timeline-title::after {
+  content: "";
+  width: 90px;
+  height: 4px;
+  display: block;
+  margin: 14px auto 0;
+  background: linear-gradient(90deg, #cf6e2a, #f5b55c);
+  border-radius: 4px;
+}
+
+/* Simplified Animated Background (GPU-optimized) */
+.animated-bg {
+  position: absolute;
+  inset: 0;
+  /* background: linear-gradient(120deg, #f5b55c, #cf6e2a, #ba667d); */
+  background-size: 300% 300%;
+  animation: smoothShift 16s ease-in-out infinite;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+@keyframes smoothShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.read-more-btn {
+  margin-top: 0.5rem;
+  background-color: transparent;
+  border: none;
+  color: #0077cc;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+}
+
+.read-more-btn:hover {
+  text-decoration: underline;
+}
+/* Timeline Grid */
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Center Line (Timeline) */
+.timeline-grid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 1px);
+  width: 2px;
+  background: linear-gradient(180deg, #f5b55c, #cf6e2a);
+  opacity: 0.4;
+}
+
+/* Timeline Card */
+.timeline-card {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  text-align: left;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  will-change: transform;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+.timeline-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(245,181,92,0.35);
+}
+
+/* Number Badge */
+.step {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #3a2e20;
+  background: linear-gradient(135deg, #ffd87a, #f5b55c);
+  padding: 10px 16px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 6px rgba(245,181,92,0.4);
+}
+
+/* Text Content */
+.timeline-card h4 {
+  font-size: 1.6rem;
+  color: #4b3621;
+  margin-bottom: 8px;
+}
+.timeline-card p {
+  font-size: 1rem;
+  color: #3a2e20;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .timeline-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .timeline-grid::before {
+    display: none;
+  }
+}
+
+/* Fort Layer (Background) */
+.fort-layer {
+  position: fixed;
+  bottom: 18%;
+  left: -500px; /* start off screen */
+  width: 380px;
+  opacity: 0.35;
+  z-index: 1; /* above animated-bg but below cards */
+  animation: fortMove 30s linear infinite;
+}
+
+.fort-layer img {
+  width: 100%;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
+}
+
+@keyframes fortMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(2000px); /* slow scroll */
+  }
+}
+/* Camel Layer (Foreground) - Fixed and Responsive */
+.camel-layer {
+  position: fixed;
+  bottom: 8%;
+  left: -15%;
+  width: 12vw; /* responsive width */
+  max-width: 220px;
+  min-width: 80px;
+  opacity: 0.9;
+  z-index: 2;
+  animation: camelMove 25s linear infinite;
+  pointer-events: auto; /* allow hover now */
+}
+
+.camel-layer img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+  animation: camelWalk 1s ease-in-out infinite;
+  transform-origin: bottom center;
+  cursor: pointer;
+}
+
+/* Tooltip message */
+.camel-layer::after {
+  content: "Hope you like the experience!";
+  position: absolute;
+  bottom: 110%; /* above camel */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Show message on hover */
+.camel-layer:hover::after {
+  opacity: 1;
+}
+
+/* Horizontal forward motion */
+@keyframes camelMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(130vw);
+  }
+}
+
+/* Walking illusion (bobbing + tilt) */
+@keyframes camelWalk {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-4px) rotate(1deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-4px) rotate(-1deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+
+
+/* Team Carousel */
+.team-section {
+  /* background: #fff2e6; */
+  padding: 50px 10px;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+   color: #83420c;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  opacity: 0.4;
+  transform: scale(0.8);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.carousel-card.center {
+  opacity: 1;
+  transform: scale(1.05);
+  z-index: 2;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-card.left,
+.carousel-card.right {
+  opacity: 0.7;
+  transform: scale(0.95);
+}
+
+.carousel-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.carousel-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.carousel-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .split-section {
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .split-section.reverse {
+    flex-direction: column;
+  }
+
+  .text-side,
+  .image-side {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-side h1,
+  .text-side h2 {
+    font-size: 2rem;
+  }
+
+  .timeline-item {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .desc {
+    text-align: center;
+  }
+}/* Rajasthan Themed Background */
+.rajasthan-theme-bg {
+  /* background-image: url('https://wallpapers.com/images/hd/rajasthan-5184-x-3456-background-s128i5ug46zem4fy.jpg'); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Floating Action Button */
+.fab {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  /* background: #7e7c79; */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+/* Toggle state */
+.fab.open {
+  background: #ff9c2c;
+}
+
+/* Curved FAB Menu */
+.fab-menu {
+  position: absolute;
+  top: 50%;
+  right: 70px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+/* Menu Buttons */
+/* Menu Buttons with Hover Effect */
+.fab-btn {
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.fab-btn:hover {
+  background-color: #ffd180;
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Section Container Styling */
+.overlay-section {
+  padding: 80px 20px;
+  margin: 60px 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  scroll-margin-top: 80px;
+}
+
+/* Headings */
+.overlay-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #4e342e;
+}
+
+/* Paragraphs */
+.overlay-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #3e2723;
+}
+
+/* Responsive FAB button menu */
+@media (max-width: 768px) {
+  .fab {
+    width: 50px;
+    height: 50px;
+  }
+
+  .fab-btn {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .fab-menu {
+    right: 60px;
+    gap: 12px;
+  }
+
+  .overlay-section {
+    padding: 60px 15px;
+  }
+
+  .overlay-section h2 {
+    font-size: 2rem;
+  }
+
+  .overlay-section p {
+    font-size: 1rem;
+  }
+}
+
+
+.highlight-list {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 800px;
+  padding-left: 20px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4e342e;
+}
+.highlight-list li {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+@import url('https://png.pngtree.com/png-clipart/20241127/original/pngtree-close-to-banana-leaves-png-image_17335408.png');
+
+/* Root colors - inspired by Rajasthani warm & earthy tones */
+:root {
+  --color-bg-light: #f7f0e9; /* light cream */
+  --color-text-dark: #3b2f2f; /* dark brown */
+  --color-accent: #d95d39; /* terracotta */
+  --color-muted: #9a6b4f; /* muted brown */
+  --color-dots: #3b2f2f;
+}
+
+.about-section {
+  min-height: 93vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 5vw;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-dark);
+  overflow-x: hidden;
+  margin-top: 70px;
+  background-color: #fff1e4;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 600px;
+  padding-right: 3rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.about-content.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.heading-raj {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #83420c;
+  line-height: 1.1;
+  letter-spacing: 3px;
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid var(--color-accent);
+  width: 0;
+  animation: typing 3s steps(25, end) infinite alternate,
+             blink-caret 0.75s step-end infinite;
+}
+
+/* Typing animation - types forward and then backwards */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Blinking cursor animation */
+@keyframes blink-caret {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    /* border-color: var(--color-accent); */
+  }
+}
+
+
+.heading-raj + .subheading-raj {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--color-muted);
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: fadeIn 3.5s ease forwards;
+  animation-delay: 0.7s;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--color-text-dark);
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+  animation-delay: 1s;
+}
+
+.thanks-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-style: italic;
+  opacity: 0;
+  animation: fadeIn 1.8s ease forwards;
+  animation-delay: 1.5s;
+}
+
+.social-icons {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--color-text-dark);
+}
+
+.dots {
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-dots);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot:hover {
+  background-color: var(--color-accent);
+}
+
+.about-image {
+  flex: 1;
+  max-width: 450px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.about-image.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-image img {
+  width: 100%;
+  animation: spinFan 6s linear infinite;
+}
+
+@keyframes spinFan {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* FadeIn Animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+/* Reveal on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-section {
+    flex-direction: column-reverse;
+    padding: 2rem 3vw;
+  }
+
+  .about-content {
+    max-width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .heading-raj {
+    font-size: 3.5rem;
+    animation: none;
+    width: 100%;
+    border-right: none;
+  }
+
+  .subheading-raj,
+  .about-text,
+  .thanks-text {
+    animation: none;
+    opacity: 1;
+  }
+
+  .about-image {
+    max-width: 80%;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+
+/* ===== General Styles (existing) ===== */
+
+/* About Section styles */
+/* Keep your existing about-section styles unchanged */
+
+/* ===== Mission Section Styles like the Behance example ===== */
+
+/* Mission Section Container */
+.mission-section {
+  display: flex;
+  max-width: 1200px;
+  margin: 80px auto;
+  /* border-radius: 30px; */
+  overflow: hidden;
+  position: relative;
+  padding: 60px 0;
+  gap: 40px;
+  font-family: "Georgia", serif;
+  /* color: #6d3100; */
+  color: #83420c;
+  /* background: #fff8f0; */
+  /* box-shadow: 0 20px 40px rgba(224, 109, 38, 0.25); */
+}
+
+/* Left side with SVG pattern */
+.mission-left {
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  position: relative;
+}
+
+/* SVG pattern style */
+.mission-pattern {
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(0 8px 12px rgba(224, 109, 38, 0.5));
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.mission-pattern:hover {
+  transform: scale(1.05);
+}
+
+/* Right side content */
+.mission-right {
+  flex: 1.5;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Mission Title */
+.mission-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-bottom: 5px solid #e06d26;
+  display: inline-block;
+  padding-bottom: 8px;
+  /* color: #b35b00; */
+  color: #83420c;
+}
+
+/* Mission description paragraph */
+.mission-desc {
+  font-size: 1.3rem;
+  max-width: 600px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  color: #7a3f00;
+}
+
+/* Mission points container */
+.mission-points {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Each mission point container */
+.mission-point {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  cursor: default;
+}
+
+/* Icon container */
+.mission-icon {
+  width: 80px;
+  height: 80px;
+  /* background: #fff4e6; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(224, 109, 38, 0.3);
+  flex-shrink: 0;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+/* SVG icons inside icon container */
+.mission-icon svg {
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+
+/* Hover effect on mission points */
+.mission-point:hover .mission-icon {
+  box-shadow: 0 8px 25px rgba(224, 109, 38, 0.6);
+  background: #f7c79f;
+}
+
+/* Text block inside each point */
+.mission-text-block h3 {
+  margin: 0 0 6px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  /* color: #b85a00; */
+  color: #83420c;
+}
+
+.mission-text-block p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #6d3100;
+}
+
+/* Scroll reveal for mission section */
+.mission-section.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.mission-section.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Scroll reveal for each mission point */
+.reveal-point {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-point.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive styling */
+@media (max-width: 1024px) {
+  .mission-section {
+    flex-direction: column;
+    padding: 40px 30px;
+  }
+
+  .mission-left,
+  .mission-right {
+    padding: 0;
+    flex: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mission-pattern {
+    margin: 0 auto 40px;
+  }
+
+  .mission-points {
+    align-items: center;
+  }
+
+  .mission-point {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mission-icon {
+    margin-bottom: 12px;
+  }
+
+  .mission-text-block h3,
+  .mission-text-block p {
+    text-align: center;
+  }
+}
+.reveal.active {
+  opacity: 1 !important;
+  transform: translateX(0) rotate(0) !important;
+}
+
